@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+
+</head>
+<body>
+<h1 > Hangman!</h1>
+<span> Choose Category: </span>
+<select id="categories" >
+    <option value="1"> Safari Animals</option>
+    <option value="2"> Types of Sushi</option>
+    <option value="3"> Fruits </option>
+</select>
+
+
+<span> <button onclick="startGame()" class="w3-button w3-white w3-border w3-border-blue">Play!</button>
+</span>
+<br>
+<br>
+<div id="correctGuesses"></div>
+<div id="graveyard"></div>
+<div id="lives"></div>
+<div id="buttons"></div>
+<div id="endGame"></div>
+<br>
+<br>
+<img id="hangmanPics">
+
+
+</body>
+</html>
