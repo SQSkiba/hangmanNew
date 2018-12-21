@@ -118,6 +118,6 @@ function reload(){
     document.getElementById("lives").innerHTML = "Lives: " + lives;
     document.getElementById("graveyard").innerHTML = "Graveyard: " + graveyard;
     document.getElementById("endGame").innerHTML = "";
-
+    document.getElementById("hangmanPics").src = "";
 }
 
